@@ -5,9 +5,9 @@
 //  Created by JiongXing on 2019/11/22.
 //  Copyright © 2019 JiongXing. All rights reserved.
 //
-
+#if !os(macOS)
 import UIKit
-
+#endif
 /// 在Zoom转场时使用
 protocol JXPhotoBrowserZoomSupportedCell: UIView {
     /// 内容视图

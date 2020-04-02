@@ -30,7 +30,9 @@
 import AppKit
 public typealias IndicatorView = NSView
 #else
+#if !os(macOS)
 import UIKit
+#endif
 public typealias IndicatorView = UIView
 #endif
 

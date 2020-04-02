@@ -5,9 +5,9 @@
 //  Created by JiongXing on 2019/12/18.
 //  Copyright © 2019 JiongXing. All rights reserved.
 //
-
+#if !os(macOS)
 import UIKit
-
+#endif
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?

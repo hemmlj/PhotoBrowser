@@ -5,9 +5,9 @@
 //  Created by JiongXing on 2019/11/14.
 //  Copyright © 2019 JiongXing. All rights reserved.
 //
-
+#if !os(macOS)
 import UIKit
-
+#endif
 open class JXPhotoBrowserView: UIView, UIScrollViewDelegate {
     
     /// 弱引用PhotoBrowser

@@ -81,9 +81,11 @@ extension KFCrossPlatformImage {
     }
 }
 #endif
-
+#if !os(macOS)
 #if canImport(UIKit)
 import UIKit
+#endif
+
 extension RectCorner {
     var uiRectCorner: UIRectCorner {
         

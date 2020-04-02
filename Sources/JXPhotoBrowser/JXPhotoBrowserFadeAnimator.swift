@@ -5,8 +5,11 @@
 //  Created by JiongXing on 2019/11/25.
 //  Copyright © 2019 JiongXing. All rights reserved.
 //
-
+#if os(macOS)
+import AppKit
+#else
 import UIKit
+#endif
 
 open class JXPhotoBrowserFadeAnimator: NSObject, JXPhotoBrowserAnimatedTransitioning {
     

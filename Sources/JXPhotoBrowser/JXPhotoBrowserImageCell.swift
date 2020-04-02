@@ -5,8 +5,9 @@
 //  Created by JiongXing on 2019/11/12.
 //  Copyright © 2019 JiongXing. All rights reserved.
 //
-
+#if !os(macOS)
 import UIKit
+#endif
 
 open class JXPhotoBrowserImageCell: UIView, UIScrollViewDelegate, UIGestureRecognizerDelegate, JXPhotoBrowserCell, JXPhotoBrowserZoomSupportedCell {
     

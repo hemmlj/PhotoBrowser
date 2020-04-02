@@ -5,9 +5,9 @@
 //  Created by JiongXing on 2019/11/25.
 //  Copyright © 2019 JiongXing. All rights reserved.
 //
-
+#if !os(macOS)
 import UIKit
-
+#endif
 public protocol JXPhotoBrowserAnimatedTransitioning: UIViewControllerAnimatedTransitioning {
     var isForShow: Bool { get set }
     var photoBrowser: JXPhotoBrowser? { get set }
